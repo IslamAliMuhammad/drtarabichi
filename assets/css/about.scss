@@ -1,0 +1,267 @@
+@import "general";
+
+/* hero start */
+.hero{
+    background-image: url(../img/about-hero.webp);
+    background-color: rgba(0, 0, 0, 0.35);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+    overflow-x: clip;
+    .right-arch{
+        top: -40px;
+        right: 0px;
+        @media(max-width:768px) {
+            top: 0;
+        }
+    }
+    @keyframes banner-icon-rotate {
+        0%{transform: rotateZ(100deg);    right: 0px;
+            width: 210px;}
+        50%{    transform: rotateZ(-50deg);
+            right: -70px;
+            width: 215px; top: 80px;}
+        100%{transform: rotateZ(100deg);    right: 0px;
+            width: 210px;}
+    }
+    .banner-green-ball{
+        top: 70px;
+        right: 0;
+        width: 210px;
+        animation: banner-icon-rotate 6s infinite ease-in-out;
+    }
+    .banner{
+        min-height: 400px;
+        padding-top: 185px;
+        z-index: 99999;
+    }
+    .title{
+        font-family: BebasNeue;
+        font-size: 56px;
+        line-height: 1.29;
+        z-index: 999;
+    }
+    .breadcrumb-item{
+        font-family: BebasNeue;
+        font-size: 27px;
+        line-height: 0.89;
+        color: #bbb;
+        z-index: 999;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+/* hero end */
+// about start
+.about{
+    padding: 225px 0;
+    @media(max-width:786px) {
+        padding: 70px 0;
+    }
+    min-height: 578px;
+    .pattern-circle{
+        bottom: -10px;
+        left: 0;
+    }
+    .pattern{
+        bottom: -40px;
+        right: 65px;
+    }
+    .half-circle{
+        bottom: -200px;
+        right: 0;
+    }
+    .title{
+        margin-bottom: 30px;
+        object-fit: contain;
+        font-family: BebasNeue;
+        font-size: 51px;
+        line-height: 1;
+        color: var(--mid-green);
+        width: fit-content;
+        &::after{
+            content: "";
+            width: 90px;
+            height: 3px;
+            background-color: var(--mid-green);
+            display: block;
+            margin: 16px 0 0;
+            transition: all 500ms;
+        }
+        &:hover{
+            &::after{
+                width: 100%;
+            }
+        }}
+        .desc{
+            margin: 33px 0 0;
+            font-size: 19px;
+            line-height: 1.74;
+            color: #333;
+            max-width: 500px;
+          }
+          .doctors-images{
+            img{
+                position: absolute;
+                @media(max-width:786px) {
+                    position: static !important;
+                    padding: 20px;
+                }
+                transition: all 500ms;
+                left: 100px;
+            }
+            img:first-child{
+                top: -155px;
+                left: 230px;
+                filter: grayscale(1);
+            }
+            img:last-child{
+               z-index: -1;
+            }
+            .sameih2{
+                filter: grayscale(1);
+            }
+          }
+        //   @keyframes T-opacity {
+        //       0%{width: 0;}
+        //       100%{width: 417px;}
+        //   }
+        //   .shuffle{
+        //       animation: T-opacity 1s ease-in-out;
+        //   }
+}
+// message start
+.message{
+    .title{
+        margin-bottom: 30px;
+        object-fit: contain;
+        font-family: BebasNeue;
+        font-size: 51px;
+        line-height: 1;
+        color: var(--mid-green);
+        width: fit-content;
+        &::after{
+            content: "";
+            width: 90px;
+            height: 3px;
+            background-color: var(--mid-green);
+            display: block;
+            margin: 16px 0 0;
+            transition: all 500ms;
+        }
+        &:hover{
+            &::after{
+                width: 100%;
+            }
+        }}
+        .desc{
+            margin: 33px 0 0;
+            font-size: 19px;
+            line-height: 1.74;
+            color: #333;
+          }
+          .signature{
+            margin: 110px 2px 0 342px;
+            font-family: RedSkyPersonalUse;
+            font-size: 27px;
+            color: #2d2d2d;
+          }
+          .metrix-box{
+            margin: 0 30px 30px 0;
+            padding: 60px 42px 0 46px;
+            border-radius: 8px;
+            box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+            border: solid 1px #f1f1f1;
+            background-color: #fff;
+            min-height: 295px;
+            p,h4{
+            font-family: BebasNeue;
+            font-size: 24px;
+            line-height: 2.04;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            }
+            .number{
+                &::after{
+                    content: "";
+                    width: 90px;
+                    height: 2px;
+                    background-color: var(--mid-green);
+                    display: block;
+                    margin: auto;
+                }
+            }
+          }
+}
+// team start
+.team{
+    .title{
+        margin-bottom: 30px;
+        object-fit: contain;
+        font-family: BebasNeue;
+        font-size: 51px;
+        line-height: 1;
+        color: var(--mid-green);
+        width: fit-content;
+        &::after{
+            content: "";
+            width: 90px;
+            height: 3px;
+            background-color: var(--mid-green);
+            display: block;
+            margin: 16px 0 0;
+            transition: all 500ms;
+        }
+        &:hover{
+            &::after{
+                width: 100%;
+            }
+        }}
+        .doctor-box{
+            border: 1px solid transparent;
+            transition: all 500ms;
+            img{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            h3{
+                font-family: BebasNeue;
+                font-size: 29px;
+                line-height: 1.66;
+                color: #2d2d2d;
+                width: fit-content;
+                &::after{
+                    content: "";
+                    width: 30%;
+                    height: 3px;
+                    background-color: var(--mid-green);
+                    display: block;
+                    transition: all 500ms;
+                    margin-bottom: 15px;
+                }
+            }
+            &:hover{
+                transform: translateY(-5px);
+                border: 1px solid gainsboro;
+                border-radius: 10px;
+                box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.06);
+                h3{
+                    &::after{
+                        width: 100%;
+                    }
+                }
+            }
+            h5{
+                font-size: 16px;
+                line-height: 2;
+                color: #848484;
+            }
+        }
+}
+
+// footer
+@import "locations";
+@import "footer"

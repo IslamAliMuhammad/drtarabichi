@@ -1,0 +1,27 @@
+.dropdown-menu>li>a:hover {
+    background-color: transparent;
+    color: #000;
+    border-bottom: 3px solid #589B46;
+}
+
+.dropdown-menu {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: 4px solid #589B46;
+}
+
+.dropdown-menu li,
+.dropdown-menu li a {
+    white-space: normal;
+    float: left;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+    text-transform:capitalize;
+}
+
+.navbar .nav-link {
+    font-size: 1.5vw !important;
+}
+
+
