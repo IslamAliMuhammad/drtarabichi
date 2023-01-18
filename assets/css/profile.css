@@ -665,3 +665,8 @@ footer .copyright {
   color: rgba(255, 255, 255, 0.6);
 }
 /*# sourceMappingURL=profile.css.map */
+
+.T-text h3 {
+  color: var(--mid-green) !important;
+  font-weight: bold;
+}

@@ -804,4 +804,48 @@ footer .copyright {
   border-radius: 3% !important;
 }
 
+#pills-publication .publication-title {
+  margin-bottom: 0px !important;
+}
 
+#pills-publication .publication-title a{
+  font-weight: 10px !important;
+  text-decoration: none;
+  color: #000;
+}
+
+#pills-publication .publication-title a:hover{
+  color: var(--mid-green);
+  text-decoration: none;
+}
+
+#pills-publication .publication-sub-title {
+  margin-bottom: 0px !important;
+  color: rgba(108, 122, 137, 1) !important;
+}
+
+#pills-publication .publication-year {
+  color: rgba(108, 122, 137, 1) !important;
+}
+
+#pills-publication td {
+  padding: 15px !important;
+  padding-left: 15px;
+}
+
+#pills-publication thead {
+  background-color: var(--mid-green);
+  color: #fff;
+}
+
+#pills-publication th {
+  padding: 15px !important;
+}
+
+#pills-publication th span{
+  padding: 15px !important;
+}
+
+#pills-publication tr {
+  padding-left: 10px;
+}
