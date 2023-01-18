@@ -849,3 +849,9 @@ footer .copyright {
 #pills-publication tr {
   padding-left: 10px;
 }
+
+#pills-publication .row {
+  --bs-gutter-x : 0px !important;
+  display: table-row;
+}
+
