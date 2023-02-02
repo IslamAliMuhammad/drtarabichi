@@ -875,3 +875,9 @@ footer .copyright {
     margin-top: 10px;
   }
 }
+
+.desc a {
+  text-decoration: none;
+  color: var(--mid-green);
+
+}

@@ -497,12 +497,14 @@ body {
   color: var(--greyish-brown);
 }
 
+
+
 .tabs .Blogs .post .post-hover-layer {
   width: 100%;
   height: 100%;
   border-radius: 5px;
   padding: 0 20px;
-  background-image: url(../img/blog/post1-layer.webp);
+  /* background-image: url(../img/blog/blog1.jpg); */
   background-size: cover;
   background-color: #589b46;
   background-blend-mode: multiply;
@@ -916,5 +918,5 @@ footer .copyright {
 }
 
 .content {
-  margin-bottom: 210px;
+  /* margin-bottom: 210px; */
 }

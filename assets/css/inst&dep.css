@@ -711,3 +711,6 @@ footer .copyright {
   color: #848484;
 }
 
+.nav .nav-item {
+  margin-bottom: 7px !important;
+}

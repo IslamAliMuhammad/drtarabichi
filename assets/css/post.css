@@ -577,3 +577,11 @@ footer .copyright {
   color: rgba(255, 255, 255, 0.6);
 }
 /*# sourceMappingURL=post.css.map */
+
+h6 {
+  font-weight: bold;
+}
+
+img {
+  border-radius: 20px;
+}

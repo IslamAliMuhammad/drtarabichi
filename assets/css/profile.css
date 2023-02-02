@@ -670,3 +670,6 @@ footer .copyright {
   color: var(--mid-green) !important;
   font-weight: bold;
 }
+.bio img {
+  border-radius: 30px;
+}

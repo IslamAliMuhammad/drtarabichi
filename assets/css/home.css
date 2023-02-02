@@ -164,7 +164,7 @@ body {
 
 /* hero end */
 .find-a-doctor {
-  min-height: 410px;
+  /* min-height: 290px; */
 }
 
 .find-a-doctor .scalable {
@@ -762,4 +762,12 @@ footer .copyright {
 .section-header img {
   width: 3vw;
   margin-right: 7px;
+}
+
+.about-us .tab-pane img{
+  border-radius: 20px;
+}
+
+.divider.m-30 {
+  margin: 30px auto !important;
 }
